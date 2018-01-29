@@ -174,7 +174,7 @@ export default class Drawing extends React.Component {
   }
 
   drawCreditText(context) {
-    var msg = "© aikdanai.com/intensifier"
+    var msg = ""
     var fontSize = 0.05 * canvasSize.height;
     context.font = fontSize + "px Arial";
     var strokeSize = 0.007 * canvasSize.height;
